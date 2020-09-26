@@ -25,6 +25,7 @@
   "homepage": "https://github.com/goforbroke/rain-notifier#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "google-home-notifier": "https://github.com/kei-s/google-home-notifier/tarball/update-google-tts-api"
+    "google-home-notifier": "https://github.com/kei-s/google-home-notifier/tarball/update-google-tts-api",
+    "multicast-dns": "^7.2.2"
   }
 }

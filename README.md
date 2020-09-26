@@ -29,12 +29,18 @@ https://github.com/noelportugal/google-home-notifier
 This application uses `YOLP`.
 `YOLP` needs authentication, authorization config.
 
+`GOOGLE_HOME_MDNS_NAME` detects by mdns.
+
+Please see below for the details.
+https://www.gesource.jp/weblog/?p=8082
+
 ```
 $ vi <app root directory>/.env
 YAHOO_API_APP_ID=<Your Yahoo api app id>
 YAHOO_API_APP_SECRET=<Your Yahoo api app secret>
+GOOGLE_HOME_MDNS_NAME=<Your Google Home mdns name>
 ```
 
 ## Usage
 
-`npm run`
+`npm run start`
