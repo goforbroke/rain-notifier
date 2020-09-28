@@ -4,6 +4,7 @@
   "description": "Notification of the arrival of rain clouds on Google Home.",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +24,9 @@
   },
   "homepage": "https://github.com/goforbroke/rain-notifier#readme",
   "dependencies": {
+    "axios": "^0.20.0",
     "dotenv": "^8.2.0",
-    "google-home-notifier": "^1.2.0"
+    "google-home-notifier": "https://github.com/kei-s/google-home-notifier/tarball/update-google-tts-api",
+    "multicast-dns": "^7.2.2"
   }
 }
