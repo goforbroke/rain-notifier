@@ -43,7 +43,7 @@ NOTIFY_RAINFAILL_AMOUNT_UNDER=<Rain threshold amount>
     - Please see below for the details.
         - https://www.gesource.jp/weblog/?p=8082
     - For multiple device support,use forward match in `GOOGLE_HOME_MDNS_NAME`
-    - ex.) There are `Google-Home-Mini-xxxxxxx`and `Google-Nest-Mini-c3ce3f6627dbe27efcf8aa6ed5c42f6a`
+    - ex.) There are `Google-Home-Mini-xxxxxxx`and `Google-Nest-Mini-xxxxxxx`
         - specify `GOOGLE_HOME_MDNS_NAME=Google-` in `.env` file.
 
 ## Usage
