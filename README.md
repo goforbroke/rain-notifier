@@ -48,3 +48,9 @@ NOTIFY_RAINFAILL_AMOUNT_UNDER=<Rain threshold amount>
 ## Usage
 
 `npm run start`
+
+## Acknowledgements
+
+This program referred to the following site.
+
+https://mst335.hatenablog.com/entry/2018/06/02/004229
