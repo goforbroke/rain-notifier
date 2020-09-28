@@ -31,6 +31,9 @@ $ vi <app root directory>/.env
 YAHOO_API_APP_ID=<Your Yahoo api app id>
 YAHOO_API_APP_SECRET=<Your Yahoo api app secret>
 GOOGLE_HOME_MDNS_NAME=<Your Google Home mdns name>
+LOCATION_LATITUDE=<Your location latitude>
+LOCATION_LONGITUDE=<Your location longitude>
+NOTIFY_RAINFAILL_AMOUNT_UNDER=<Rain threshold amount>
 ```
 
 - This application uses `YOLP`.
