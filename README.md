@@ -9,8 +9,7 @@
 `sudo apt-get install git-core libnss-mdns libavahi-compat-libdnssd-dev`
 
 Please see below for the details.
-
-https://github.com/noelportugal/google-home-notifier
+- https://github.com/noelportugal/google-home-notifier
 
 ### Npm install
 
@@ -19,8 +18,7 @@ npm install
 ### After npm install(If you use mdns)
 
 Please see below for the details.
-
-https://github.com/noelportugal/google-home-notifier
+- https://github.com/noelportugal/google-home-notifier
 
 ### After "npm install"
 
@@ -43,7 +41,7 @@ NOTIFY_RAINFAILL_AMOUNT_UNDER=<Rain threshold amount>
 
 - `GOOGLE_HOME_MDNS_NAME` detects by mdns.
     - Please see below for the details.
-    https://www.gesource.jp/weblog/?p=8082
+        - https://www.gesource.jp/weblog/?p=8082
     - For multiple device support,use forward match in `GOOGLE_HOME_MDNS_NAME`
     - ex.) There are `Google-Home-Mini-xxxxxxx`and `Google-Nest-Mini-c3ce3f6627dbe27efcf8aa6ed5c42f6a`
         - specify `GOOGLE_HOME_MDNS_NAME=Google-` in `.env` file.
@@ -55,5 +53,4 @@ NOTIFY_RAINFAILL_AMOUNT_UNDER=<Rain threshold amount>
 ## Acknowledgements
 
 This program referred to the following site.
-
-https://mst335.hatenablog.com/entry/2018/06/02/004229
+- https://mst335.hatenablog.com/entry/2018/06/02/004229
