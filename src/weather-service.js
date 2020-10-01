@@ -9,11 +9,14 @@ module.exports = class RainForecastService {
     }
 
     async isRainFall() {
+        const notifyThreshold = Number.parseInt(process.env.NOTIFY_RAINFAILL_AMOUNT_UNDER);
+
         const forecastsWithHttp = await this.fetch();
         const forecasts = forecastsWithHttp.data.Feature[0].Property.WeatherList.Weather;
         const [current, next] = forecasts;
         console.log(current, next);
-        return (current.Rainfall === 0 && next.Rainfall > process.env.NOTIFY_RAINFAILL_AMOUNT_UNDER) ? true : false;
+
+        return (current.Rainfall === 0 && next.Rainfall > notifyThreshold) ? true : false;
     }
 
     fetch() {
