@@ -1,26 +1,22 @@
 # rain-notifier
 
-## Installation
+Googlehome notifies  the arrival of rain coming soon.
+rain-notifier found device by `mDNS`.
 
-### Before npm install
+## Before npm install
 
-`mdns` requires some library before npm install.
+rain-notifier use `mDNS` that requires some library before npm install.
+
+For Ubuntu 18.04
 
 `sudo apt-get install git-core libnss-mdns libavahi-compat-libdnssd-dev`
 
 Please see below for the details.
 - https://github.com/noelportugal/google-home-notifier
 
-### Npm install
+## npm install
 
-npm install
-
-### After npm install(If you use mdns)
-
-Please see below for the details.
-- https://github.com/noelportugal/google-home-notifier
-
-### After "npm install"
+`$ npm install`
 
 ## Setup
 
