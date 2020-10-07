@@ -9,7 +9,7 @@ module.exports = class RainForecastService {
     }
 
     async isRainFall() {
-        const notifyThreshold = Number.parseInt(process.env.NOTIFY_RAINFAILL_AMOUNT_UNDER);
+        const notifyThreshold = Number.parseFloat(process.env.NOTIFY_RAINFAILL_AMOUNT_UNDER);
 
         const forecastsWithHttp = await this.fetch();
         const forecasts = forecastsWithHttp.data.Feature[0].Property.WeatherList.Weather;
